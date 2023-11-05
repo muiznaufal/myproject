@@ -1,0 +1,99 @@
+.unknown{
+    background: #ffff ;
+    position: center;
+    height: 90px;
+    width: 100%;
+    background-size: cover;
+    top: 0;
+}
+
+/* news */
+.content-2-bg{
+width: 100%;
+padding-bottom:15px ;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+a:hover{
+    color: blue;
+    transition: 0.2s ease-in;
+    text-decoration: underline;
+}
+
+.news{ 
+    position: relative;
+    padding: 60px 0 50px 0;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h{
+    width: 10%;
+    height: 3px;
+    border:0 none;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #B3B3B3;
+    margin-top:0;
+}
+
+.news h2{
+    font-weight: lighter;
+}
+
+.content-1{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    margin:10px 90px 0 90px;
+    border: thin solid #000;
+    border-bottom-right-radius:50px ;
+    border-top-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+    border-top-left-radius:50px;
+}
+
+
+.news-content img{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 16vh;
+    border-bottom-right-radius:10px ;
+    border-top-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px;
+    position: relative;
+    
+}
+
+.textbox{
+    grid-column: span 4;
+    padding:10px 0 0 0 ; 
+    
+}
+
+.textbox h2{
+    font-size: 19px;
+}
+
+.textbox p{
+    padding: 5px 0;
+}
+
+.textbox h3{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.news-content {
+    padding: 5px;
+}
